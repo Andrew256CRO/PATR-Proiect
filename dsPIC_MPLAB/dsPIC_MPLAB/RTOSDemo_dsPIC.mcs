@@ -1,0 +1,280 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\dsPIC_MPLAB\main.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File001]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\source\list.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File002]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\source\queue.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File003]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\source\tasks.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File004]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\source\portable\MPLAB\PIC24_dsPIC\port.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File005]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\source\portable\MemMang\heap_1.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File006]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\Common\Minimal\BlockQ.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File007]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\source\croutine.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File008]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\Common\Minimal\crflash.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File009]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\dsPIC_MPLAB\ParTest\ParTest.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File010]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\Common\Minimal\blocktim.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File011]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\Common\Minimal\integer.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File012]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\dsPIC_MPLAB\timertest.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File013]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File014]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\Common\Minimal\comtest.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File015]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\dsPIC_MPLAB\new_serial.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File016]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\dsPIC_MPLAB\adcDrv1.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File017]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\dsPIC_MPLAB\ds18s20.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File018]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\dsPIC_MPLAB\lcd_driver.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File019]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\dsPIC_MPLAB\RTOSDemo_dsPIC.cof
+Folder=Output
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=--defsym=__ICD2RAM=1 --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1 --defsym=__ICD2RAM=1
+[File020]
+Location=D:\1402B\New folder\FreeRTOS_2024_LCD_UART1_Lab\Demo\dsPIC_MPLAB\RTOSDemo_dsPIC.hex
+Folder=Output
+DeviceName=dsPIC33FJ128MC802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\list.c|..\..\source\queue.c|..\..\source\tasks.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\source\portable\MemMang\heap_1.c|..\Common\Minimal\BlockQ.c|..\..\source\croutine.c|..\Common\Minimal\crflash.c|ParTest\ParTest.c|..\Common\Minimal\blocktim.c|..\Common\Minimal\integer.c|timertest.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\Common\Minimal\comtest.c|new_serial.c|adcDrv1.c|ds18s20.c|lcd_driver.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\libq-dsp-coff.a||<lkr>|p33FJ128MC802.gld||
+SuiteArgsString=
+ToolArgsString=--defsym=__ICD2RAM=1 --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1 --defsym=__ICD2RAM=1
+[TOOL_LOC_STAMPS]
+tool_loc{DE18EB1A-B46B-486B-B96F-A811A635DFAC}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
